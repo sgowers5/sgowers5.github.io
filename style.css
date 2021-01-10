@@ -32,6 +32,8 @@ body{
 }
 
 .name{
+    display:inline;
+    margin:left 30px;
     text-align: left;
 
 }
@@ -55,7 +57,7 @@ p{
 footer{
     display:grid;
     grid-template-columns:80% 1fr;
-    height:55px;
+
     border-top: 3px solid;
     border-color:#BF0603;
     
@@ -72,10 +74,4 @@ img{
 .foot{
     text-align:center;
     margin-top:10px;
-}
-
-.update{
-    text-align:center;
-    margin-top:10px;
-}
 }
