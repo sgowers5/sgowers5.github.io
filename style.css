@@ -31,9 +31,21 @@ body{
     color: #444;
 }
 
+.name{
+    text-align: left;
+
+}
+
+.familypicture{
+    border-radius: 10% 10% 10% 10%;
+    position: relative;
+    float: right;
+
+}
+
 h1, h2{
     font-family: "Gadget", serif;
-    font-size: 32px;
+    
     color: #BF0603;
 }
 p{
@@ -57,7 +69,13 @@ img{
     max-width:100%;
 }
 
-foot{
+.foot{
     text-align:center;
     margin-top:10px;
+}
+
+.update{
+    text-align:center;
+    margin-top:10px;
+}
 }
