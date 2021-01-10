@@ -1,0 +1,41 @@
+.home-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:0.5em;
+}
+
+header{
+    display:grid;
+    grid-template-columns:200px auto;
+    border-bottom:3px solid;
+    border-color: #BF0603;
+}
+
+body{
+    background-color: #61210F;
+    font-family: "Open Sans", sans-serif;
+    padding: 5px 25px;
+    font-size: 18px;
+    margin: 0;
+    color: #444;
+}
+
+h1, h2{
+    font-family: "Gadget", serif;
+    font-size: 32px;
+    color: #BF0603;
+}
+p{
+    font-family:"Arial", "Helvetica", "sans-serif";
+}
+
+footer{
+    display:grid;
+    grid-template-columns:80% 1fr;
+    
+}
+
+header, footer{
+    border-radius: 15px;
+}
