@@ -36,8 +36,10 @@ body{
 
 .familypicture{
     border-radius: 10% 10% 10% 10%;
-    position: relative;
     float: right;
+    max-width: 300px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
 
 }
 
