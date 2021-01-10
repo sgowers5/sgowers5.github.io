@@ -9,6 +9,12 @@
     grid-gap:0.5em;
 }
 
+#content{
+    background-color:#FFD6AF;
+    max-width:960px;
+    margin: auto;
+}
+
 header{
     display:grid;
     grid-template-columns:200px auto;
@@ -37,9 +43,16 @@ p{
 footer{
     display:grid;
     grid-template-columns:80% 1fr;
+    height:55px;
+    border-top: 3px solid;
+    border-color:#BF0603;
     
 }
 
 header, footer{
     border-radius: 15px;
+}
+
+img{
+    max-width:100%;
 }
