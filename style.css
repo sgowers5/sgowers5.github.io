@@ -3,11 +3,12 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap:0.5em;
+    
 }
 
 #content{
     background-color:#FFD6AF;
-    max-width:960px;
+    max-width: 960px;
     margin: auto;
 }
 
@@ -39,7 +40,7 @@ body{
     
     max-width: 150px;
     box-shadow: 10px 10px 5px grey;
-    grid-row:4/6;
+    grid-column:4/6;
     grid-row:1/2;
 
 }
