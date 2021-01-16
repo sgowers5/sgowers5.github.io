@@ -36,7 +36,7 @@ body{
 
 .familypicture{
     border-radius: 10% 10% 10% 10%;
-    float: right;
+    
     max-width: 150px;
     box-shadow: 10px 10px 5px grey;
     grid-row: 4/6;
