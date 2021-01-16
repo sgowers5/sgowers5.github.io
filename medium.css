@@ -1,5 +1,6 @@
-@media (min-width: 32.5em){
+@media screen and (min-width: 32.5em){
     .familypicture{
         float: right;
+       
     }
 }
