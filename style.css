@@ -40,8 +40,8 @@ body{
     
     max-width: 150px;
     box-shadow: 10px 10px 5px grey;
-    grid-column:4/6; 
-    grid-row:1/2;
+    grid-row:4/6;
+    grid-column:1/2;
 
 }
 
