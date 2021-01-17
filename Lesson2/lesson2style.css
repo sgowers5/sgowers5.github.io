@@ -6,12 +6,12 @@
 
 body {
     font-family: "Open Sans" sans-serif;
-    background-color: #61210f;
+    background-color: #292929;
     font-family: "Open Sans", sans-serif;
     padding: 5px 25px;
     font-size: 18px;
     margin: 0;
-    color: #292929;
+    color: #BF0603;
 
 }
 
@@ -28,7 +28,7 @@ footer{
 h1, h2{
     font-family: "Gadget", serif;
     
-    color: #294C60;
+    color: #BF0603;
 }
 /* phone or baseline views **************************/
 main {
