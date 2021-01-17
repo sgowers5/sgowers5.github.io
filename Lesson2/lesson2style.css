@@ -15,6 +15,7 @@ body {
 
 }
 
+
 footer{
     display:grid;
     grid-template-columns:80% 1fr;
