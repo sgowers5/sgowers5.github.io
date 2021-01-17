@@ -11,7 +11,7 @@ body {
     padding: 5px 25px;
     font-size: 18px;
     margin: 0;
-    color: #444;
+    color: #BF0603;
 
 }
 
@@ -45,7 +45,7 @@ main section {
 	margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0 1rem;
-	background-color: #294C60;
+	background-color: #61210f;
 }
 
 main section:nth-child(2) {
