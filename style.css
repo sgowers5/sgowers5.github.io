@@ -17,7 +17,7 @@ header{
     grid-template-columns:200px auto;
     border-bottom:3px solid;
     border-color: #BF0603;
-    
+    background-color: #292929;
 }
 
 body{
