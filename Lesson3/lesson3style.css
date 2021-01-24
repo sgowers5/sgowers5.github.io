@@ -37,10 +37,12 @@ footer{
     
 }
 
-
-h1, h2{
+p{
+    padding: 5px 25px;
+}
+h1, h2, h3{
     font-family: "Gadget", serif;
-    
+    padding: 5px 25px;
     color: #BF0603;
 }
 /*photo size corrections*******************************/
