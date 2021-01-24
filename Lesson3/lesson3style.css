@@ -13,6 +13,14 @@ body {
     color: #BF0603;
 
 }
+header{
+    display:grid;
+    grid-template-columns:200px auto;
+    border-bottom:3px solid;
+    border-color: #BF0603;
+    text-align: center;
+    background-color: #292929;
+}
 
 
 a{
