@@ -43,7 +43,19 @@ h1, h2{
     
     color: #BF0603;
 }
-
+/*photo size corrections*******************************/
+.domainpicture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.websitepicture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 .colorphoto{
   display: block;
   margin-left: auto;
