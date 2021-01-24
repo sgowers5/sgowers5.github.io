@@ -23,8 +23,9 @@ header{
 }
 
 
-a{
-    color: #FFD6AF;
+nav a{
+    color: #BF0603;
+    text-align: center;
 }
 
 footer{
@@ -42,6 +43,73 @@ h1, h2{
     
     color: #BF0603;
 }
+
+.colorphoto{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/*typography color styles and choices samples*********/
+
+.siteheader{
+    background-color: #B7D5D4;
+    font-family: "Bodoni Moda", serif;
+    font-size: 40px;
+    
+    color: #F34213;
+}
+
+.primarynavigation{
+    background-color: #DE9151;
+    font-family: "Bodoni Moda", serif;
+    font-size: 30px;
+    
+    color: #373E40;
+}
+
+.footernavigation{
+    background-color: #DE9151;
+    font-family: "Bodoni Moda", serif;
+    font-size: 20px;
+    
+    color: #373E40;
+}
+
+.heading1{
+    background-color: #B7D5D4;
+    font-family: "Bodoni Moda", serif;
+    font-size: 30px;
+    
+    color:#F34213;
+}
+
+.heading2{
+    background-color: #B7D5D4;
+    font-family: "Bodoni Moda", serif;
+    font-size: 25px;
+    
+    color:#F34213;
+}
+
+.heading3{
+    background-color: #B7D5D4;
+    font-family: "Bodoni Moda", serif;
+    font-size: 20px;
+    
+    color:#F34213;
+}
+.paragraphtext{
+    background-color: #B7D5D4;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    
+    color:#373E40;
+}
+
+
+
 /* phone or baseline views **************************/
 main {
 	max-width: 767px;
