@@ -6,10 +6,10 @@
   <meta name="description" content="Preston-lesson 4 for Spencer Gowers in Web Frontend Development at BYUI">
   <meta name="viewport" content="width=device-width, inital-scale=1.0">
   <title>Spencer Gowers Assignment Portal</title>
-  <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" media="screen and (min-width: 32.5em)" href="medium.css">
-  <link rel="stylesheet" media="screen and (min-width: 16em") href="small.css"
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (min-width: 32.5em)" href="css/medium.css">
+  <link rel="stylesheet" media="screen and (min-width: 16em") href="css/small.css">
   <script src="js/currentdate.js"></script>
 </head>
 
@@ -23,17 +23,17 @@
 </header>
 <nav>
     <ul>
-        <li><a href="#">Spot 1</a></li>
-        <li><a href="#">Spot 2</a></li>
-        <li><a href="#">Spot 3</a></li>
-        <li><a href="#">Spot 4</a></li>
-        <li><a href="#">Spot 5</a></li>
-        <li><a href="#">Spot 6</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
       </ul>
 </nav>
 
 <div class="main-body">
-<h2>Preston Idaho</h2>
+<h2 class="mainline">Preston Idaho</h2>
 <div class="contentbox">Hero image/Weather summary</div>
 <div class="contentbox">5 day forecast</div>
 <div class="contentbox">Article</div>
@@ -41,9 +41,10 @@
 </div>
 
 <footer>
-
-</footer>
-
+  <div class="foot"><p> &copy;<script>document.write( new Date().getFullYear() );</script> - Spencer Gowers - North Carolina - <a href="https://www.byui.edu/online">BYUI Online</a></p>
+   <p class="foot"><span id='lastupdated'></span></p> 
+ </div>
+ </footer>
 
 </div>
 </body>
