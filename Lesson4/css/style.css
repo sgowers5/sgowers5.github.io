@@ -1,17 +1,22 @@
 #content{
     background-color: #488286;
-    max-width: 960px;
     margin: auto;
 }
 
 nav{
     margin-top:35px;
     display:flex;
+    max-width:100%;
   }
   
   ul{
       list-style:none;
-  }
+      display:flex;
+      grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+      background-color: #373E40;
+      
+    }
+
 
   li{
     display:inline;
@@ -19,13 +24,7 @@ nav{
     margin-right:65.4px;
     width: 50%;
   }
-  nav ul{
-   
-    display:flex;
-    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
-    background-color: #373E40;
-    
-  }
+
   
   nav a{
     color:#DE9151;
